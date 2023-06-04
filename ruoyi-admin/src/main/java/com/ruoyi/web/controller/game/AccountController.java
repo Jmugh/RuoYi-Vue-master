@@ -38,8 +38,8 @@ public class AccountController extends BaseController {
     }
 
 //    @PreAuthorize("@ss.hasPermi('game:account:add')")
-    @PostMapping("/addAccount")
-    public AjaxResult add(AccountInfo accountInfo){
-        return toAjax(accountService.addAccount(accountInfo));
-    }
+//    @PostMapping("/addAccount")
+//    public AjaxResult add(AccountInfo accountInfo){
+//        return toAjax(accountService.addAccount(accountInfo));
+//    }
 }
